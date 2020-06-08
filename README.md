@@ -8,6 +8,10 @@ You can verify the legitimacy of a signature by comparing it with the original s
 
 <img src="README_Images/Demo Screenshot.png"/>
 
+## Test Images
+
+You could use the test images present in this folder: [VeriSign/Test Images](https://github.com/kartik2112/VeriSign/tree/master/Test%20Images). The filenames `Person X Original/Forged Y` are from the dataset used for training/validation of model and the others are from completely different distribution.
+
 # Model Details
 
 My inspiration for using Siamese Networks for such a purpose was based on Andrew NG's Deep Learning Specialization course and the article [One Shot Learning with Siamese Networks using Keras](https://towardsdatascience.com/one-shot-learning-with-siamese-networks-using-keras-17f34e75bb3d) by [Harshall Lamba](https://github.com/hlamba28).
