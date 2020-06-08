@@ -40,6 +40,8 @@ Even though on-paper the validation accuracy is very high, and recognizes slight
 
 The front-end is developed using Angular and a Python Flask Server on the backend. The Angular front-end web-app is a simple application letting the users upload an original and test signature and uploads it to the Flask Server on the backend which uses a trained Deep Learning model developed using Tensorflow-Keras. The front-end is deployed on Firebase and the Flask Server is deployed on Heroku. The links detailing this procedure are mentioned at the end of this README.
 
+For deploying the Flask Server on Heroku, the configuration files [Procfile](https://raw.githubusercontent.com/kartik2112/VeriSign/master/requirements.txt) and [requirements.txt](https://raw.githubusercontent.com/kartik2112/VeriSign/master/Procfile) were created.
+
 # Useful Links
 
 * [Deploying an Angular App to Firebase Hosting](https://alligator.io/angular/deploying-angular-app-to-firebase/)
